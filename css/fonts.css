@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Glegoo:400,700);
+
+body {
+  font-family:         verdana, sans-serif;
+  font-size:           14pt;
+}
+
+h1 {
+  font-size:       200%;
+  font-family:     Glegoo;
+}
+
+#nav a,
+#nav a:link,
+#nav a:hover,
+#nav a:active,
+#nav a:visited {
+  font-size:           20pt;
+  text-decoration:     none;
+}

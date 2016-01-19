@@ -1,0 +1,36 @@
+/**
+ * Miscellaneous styles not suitable for other style sheets.
+ */
+
+* {
+  cursor: default;
+}
+
+html {
+  box-shadow: inset black 0 0 90px;
+}
+
+body {
+  background-image:    url("/assets/background-inverted.jpg");
+  background-repeat:   no-repeat;
+  background-position: bottom right;
+  background-size:     auto 100%;
+}
+
+#content {
+  background-image:      url("/assets/background.jpg");
+  background-size:       auto 100%;
+  background-position:   center right;
+  background-repeat:     no-repeat;
+  background-attachment: fixed;
+}
+
+#nav a,
+#nav a:link,
+#nav a:hover,
+#nav a:active,
+#nav a:visited {
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 500ms ease-in-out;
+}

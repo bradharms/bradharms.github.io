@@ -1,0 +1,25 @@
+.icon {
+  display: inline-block;
+  height: 1.0em;
+  line-height: 1.0em;
+  width: 1em;
+  background-size: 95%;
+  background-position: left baseline;
+  background-repeat: no-repeat;
+}
+
+.icon::after {
+  content: '\00a0';
+}
+
+.icon.icon-blogger {
+  background-image: url('/assets/icons/blogger-rect-512px.svg');
+}
+
+.icon.icon-github {
+  background-image: url('/assets/icons/github-512px.svg');
+}
+
+.icon.icon-linkedin {
+  background-image: url('/assets/icons/linkedin-512px.svg');
+}
