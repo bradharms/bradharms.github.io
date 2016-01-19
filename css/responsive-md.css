@@ -1,0 +1,7 @@
+@media (max-width: 1280px) {
+  #content {
+    padding-top: 2em;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
